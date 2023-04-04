@@ -8,25 +8,25 @@ class GuestController extends Controller
 {
     public function index()
     {
-        return view('index');
+        return view('admin/index');
     }
 
     
     public function electronic()
     {
-        return view('electronic');
+        return view('guest/electronic');
     }
 
     
     public function fashion()
     {
-        return view('fashion');
+        return view('guest/fashion');
     }
 
     
     public function jewellery()
     {
-        return view('jewellery');
+        return view('guest/jewellery');
     }
 
 
